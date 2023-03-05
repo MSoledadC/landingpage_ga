@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glamping Argentina</title>
+
+   <!-- <link rel="manifest" href="site.webmanifest"> -->
+   <link rel="shortcut icon" type="image/x-icon" href="imagen/favicon.ico.png">
+   <!-- Place favicon.ico in the root directory -->
+
+   <!-- vinculacion css -->
+  <link rel="stylesheet" href="estilos.css">
+
+  <style>
+	  body {
+		  background-color: #f5f5f5;
+		  font-family: Arial, sans-serif;
+	  }
+
+	  #countdown {
+		  font-size: 1rem;
+		  text-align: center;
+		  margin-top: 50px;
+		  position: relative;
+    	  top: 350px;
+    	  right: 380px;
+	  }
+
+	  #countdown span {
+		  display: inline-block;
+		  background-color: transparent;
+		  color: #fff;
+		  padding: 10px;
+		  margin: 5px;
+		  border-radius: 10px;
+		  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	  }
+  </style>
+    
+
+</head>
+<!-- <body class="fondo" onload="countdown()">
+	<div id="countdown">
+	<script  >
+		function countdown() {
+			var endDate = new Date("2023-04-15T23:59:59Z"); // Fecha límite en UTC
+			var now = new Date();
+			var timeLeft = Math.floor((endDate - now) / 1000);
+			var days = Math.floor(timeLeft / 86400);
+			var hours = Math.floor((timeLeft % 86400) / 3600);
+			var minutes = Math.floor((timeLeft % 3600) / 60);
+			var seconds = Math.floor(timeLeft % 60);
+			document.getElementById("countdown").innerHTML = days + " días " + hours + " horas " + minutes + " minutos " + seconds + " segundos";
+			if (timeLeft <= 0) {
+				document.getElementById("countdown").innerHTML = "¡La cuenta regresiva ha terminado!";
+			} else {
+				setTimeout(countdown, 1000);
+			}
+		}
+	</script>
+	</div>
+	
+     <button class="boton_blog">Blog</button>-->
+	
+	 <body class="fondo" onload="countdown()">
+	<!-- 	<button class="boton_blog" onclick="window.location.href='https://www.glamping_argentina.com.ar'" >Blog</button>-->
+		<div id="countdown">
+			<span id="days">0</span><span>Días</span>
+			<span id="hours">0</span><span>Hs</span>
+			<span id="minutes">0</span><span>Min</span>
+			<span id="seconds">0</span><span>S</span><br>
+			<button class="boton_blog" onclick="window.location.href='https://www.glamping_argentina.com.ar'" >Blog</button>
+
+		</div>
+	
+		<script>
+			function countdown() {
+				var endDate = new Date("2023-04-15T23:59:59Z"); // Fecha límite en UTC
+				var now = new Date();
+				var timeLeft = Math.floor((endDate - now) / 1000);
+				var days = Math.floor(timeLeft / 86400);
+				var hours = Math.floor((timeLeft % 86400) / 3600);
+				var minutes = Math.floor((timeLeft % 3600) / 60);
+				var seconds = Math.floor(timeLeft % 60);
+				document.getElementById("days").innerHTML = days;
+				document.getElementById("hours").innerHTML = hours;
+				document.getElementById("minutes").innerHTML = minutes;
+				document.getElementById("seconds").innerHTML = seconds;
+				if (timeLeft <= 0) {
+					document.getElementById("countdown").innerHTML = "<span>¡La cuenta regresiva ha terminado!</span>";
+				} else {
+					setTimeout(countdown, 1000);
+				}
+			}
+		</script>
+
+		<div></div>
+	</body>
+	</html>
+	

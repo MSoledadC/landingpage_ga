@@ -21,7 +21,7 @@
 	  }
 
 	  #countdown {
-		  font-size: 1rem;
+		  font-size: 1.3rem;
 		  text-align: center;
 		  margin-top: 50px;
 		  position: relative;
@@ -63,16 +63,19 @@
 	</script>
 	</div>
 	
-     <button class="boton_blog">Blog</button>-->
+     <button class="boton_blog">Blog</button>
+	
+	document.getElementById("minutes").innerHTML = minutes;
+				document.getElementById("seconds").innerHTML = seconds;-->
 	
 	 <body class="fondo" onload="countdown()">
 	<!-- 	<button class="boton_blog" onclick="window.location.href='https://www.glamping_argentina.com.ar'" >Blog</button>-->
 		<div id="countdown">
-			<span id="days">0</span><span>Días</span>
-			<span id="hours">0</span><span>Hs</span>
-			<span id="minutes">0</span><span>Min</span>
-			<span id="seconds">0</span><span>S</span><br>
-			<button class="boton_blog" onclick="window.location.href='https://www.glamping_argentina.com.ar'" >Blog</button>
+			<span id="days">0</span><span>Days</span>
+			<span id="hours">0</span><span>Hrs</span>
+			<!--<span id="minutes">0</span><span>Min</span>
+			<span id="seconds">0</span><span>S</span>--><br>
+			<button class="boton_blog" onclick="window.location.href='https://www.glamping_argentina.com.ar'" >Read BLOG</button>
 
 		</div>
 	
@@ -87,8 +90,7 @@
 				var seconds = Math.floor(timeLeft % 60);
 				document.getElementById("days").innerHTML = days;
 				document.getElementById("hours").innerHTML = hours;
-				document.getElementById("minutes").innerHTML = minutes;
-				document.getElementById("seconds").innerHTML = seconds;
+				
 				if (timeLeft <= 0) {
 					document.getElementById("countdown").innerHTML = "<span>¡La cuenta regresiva ha terminado!</span>";
 				} else {

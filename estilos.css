@@ -10,7 +10,7 @@ body {
 }
 
 .fondo {
-    background: url(imagen/38026801-C7A7-40E5-A91E-AAE75469D9CC.png) center no-repeat fixed; 
+    background: url(imagen/landing.png) center no-repeat fixed; 
     background-size: 100% 100%;
     position: relative;
     overflow: hidden;
@@ -29,4 +29,15 @@ body {
     font-size: 2rem;
     margin-top: 60px;
     
+}
+
+.fondol {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 230px;
+    margin-left: 50px;
+    position: absolute;
 }

@@ -41,3 +41,26 @@ body {
     margin-left: 50px;
     position: absolute;
 }
+
+ /* TABLETS */
+ @media (max-width: 950px) {
+    #countdown{
+        right: 200px;
+    }
+    .fondol{
+        margin-left: 0px;
+    }
+ }
+
+/* MOBILES */
+@media (max-width: 650px) {
+    #countdown {
+        top: 40px !important;
+        right: 0px !important;
+    }
+
+    .fondol{
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+}

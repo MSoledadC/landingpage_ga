@@ -81,12 +81,16 @@ body {
     
     .fondol{
         font-size: 1.2rem;
-        margin-top: 0px;
-        margin-left: 15px;
+        margin-top: 25px;
+        margin-left: 25px;
     }
 
     .fondo{
         background: url(imagen/vitsacel.png) center no-repeat fixed; 
+    }
+
+    #countdown span {
+        display: none;
     }
 
 

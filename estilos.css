@@ -70,10 +70,15 @@ body {
         right: 0px !important;
     }
 
+    .fondo{
+        background-size: 150% 100%;
+    }
+
+
     .fondol{
         margin-left: 0px;
         font-size: 1.4rem;
-        margin-left: 45px;
+        margin-left: 50px;
         margin-top: 10px;
     }
 

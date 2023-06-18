@@ -72,7 +72,13 @@ body {
 
     .fondol{
         margin-left: 0px;
-        margin-top: -50px;
+        font-size: 1.4rem;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    #countdown span {
+        display: none !important;
     }
 }
 

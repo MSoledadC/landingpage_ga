@@ -973,8 +973,8 @@
   padding-top: 30px;
 }
 
-   /* TABLETS */
-   @media (max-width: 950px) {
+  /* TABLETS */
+  @media (max-width: 950px) {
     h1 {
       font-size: 2.8rem;
     }
@@ -1034,9 +1034,28 @@
   .slider_area .single_slider .slider_text h3{
     font-size: 25px;
   }
+
+  .footer .footer_top .footer_widget{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+
+  }
+
+  .footer .footer_top .footer_widget .newsletter_form input{
+    padding-right: 10px;
+    padding-left: 0px;
+    height: 25px;
+  }
+
+  .footer .copy-right_text .socail_links{
+    justify-content: space-between;
+    margin-top: 0px;
+  }
   }
 
   
+
 
   /* CEL*/
   @media (max-width: 340px) {

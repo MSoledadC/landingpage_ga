@@ -40,7 +40,18 @@ body {
     margin-top: 230px;
     margin-left: 50px;
     position: absolute;
+    text-align: center;
 }
+
+.boton-descargar {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  .boton-descargar:hover {
+    background-color: #cc0000;
+  }
 
  /* TABLETS */
  @media (max-width: 950px) {
@@ -63,4 +74,17 @@ body {
         margin-left: 0px;
         margin-top: -50px;
     }
+}
+
+    /* CEL */
+@media (max-width: 320px) {
+    
+    .fondol{
+        font-size: 1.2rem;
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+
+
+    
 }

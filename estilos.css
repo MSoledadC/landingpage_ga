@@ -85,6 +85,10 @@ body {
         margin-left: 15px;
     }
 
+    .fondo{
+        background-size: 150% 100%; 
+    }
+
 
     
 }

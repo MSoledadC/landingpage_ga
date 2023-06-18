@@ -90,7 +90,7 @@ body {
     }
 
     #countdown span {
-        display: none;
+        display: none !important;
     }
 
 

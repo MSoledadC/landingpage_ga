@@ -86,7 +86,7 @@ body {
     }
 
     .fondo{
-        background-size: 190% 115%; 
+        background: url(imagen/vitsacel.png) center no-repeat fixed; 
     }
 
 
